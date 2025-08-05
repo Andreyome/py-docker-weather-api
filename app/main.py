@@ -20,7 +20,7 @@ def get_weather() -> None:
         condition = data["current"]["condition"]["text"]
         full_info = (f"City: {city}, "
                      f"Temperature: {temp}, "
-                     f" Humidity: {humidity}, "
+                     f"Humidity: {humidity}, "
                      f"Condition: {condition}")
         print(full_info)
 
